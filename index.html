@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Event Scheduler</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="" crossorigin>
+    <link href="https://fonts.googleapis.com/csshttps://fonts.gstatic.com2?family=Poppins:wght@100;200;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+
+            <a href="index.html"> <img src="logo.png" ></a>
+
+            <div class="menu_bar" id="menu_bar_id">
+                <i class="fa fa-times" onclick="hide()"></i>
+
+
+                <ul>
+
+                    <li > <a href="register.html"> EVENTS</a> </li>
+                    <li > <a href="register.html"> REGISTER</a> </li>
+                    
+
+                </ul>
+                
+
+            </div>
+
+            <i class="fa fa-bars" onclick="show()" > </i>
+
+        </nav>
+
+        <div class="text-on-page">
+             
+            <h2 class="headintro"> EVENT SCHEDULER </h2> <br>
+            <p class="intro"> We are one of the best Event Schedulers </p> 
+        <p> Check the ongoing events in your city and be a part of the event </p> <br>
+        </div>
+</section>
+
+<hr>
+<hr>
+<!-----------------------------------------events happening------------------------------------------->
+
+
+
+<!----------------------------------events happening----------------------------------->
+<section class="sponsors">
+
+<h1 class="spon"> <br> <br>"EVENTS HAPPENING" </h1>
+<p class="sponp">These are few of the events that are happening in the town <br> Register to the events of your interest and be the part of it</p>
+
+<div class="row">
+    <div class="title2">
+        <a href=""> <img src="images.png" width="100" height="100" alt=""></a>
+   
+    </div> <hr> <br>
+
+    <div class="title2">
+        <a href=""><img src="images (2).png" width="100" height="100" alt=""> </a>
+    </div> <br> <hr> <br>
+
+    <div class="title2">
+       <a href=""> <img src="images (3).png" width="100" height="100" alt=""></a> <hr> <br>
+    </div>
+    </div>
+
+</section>
+<!--------------------------closed events------------------------------------>
+
+<section class="dos">
+    <h1 class="manh">EVENTS CLOSED</h1>
+    
+    <p id="doid">"You were too late"</p>
+    <br>
+<div class="dodiv">
+    <div class="title3">
+        <a href=""><img src="images (5).png" alt=""></a>
+        </div>
+
+    <div class="title3">
+        <a href=""><img src="images (6).png" alt=""></a>
+    </div> <br>
+
+    
+</div>
+</section> <hr>
+<!-----------------------------------------contact us----------------------------------------->
+ <section class="contactus">
+<h1 class="co" id="contid"></h1>
+<a class="visit" id="contaid" href="">click here !!</a>
+ </section>
+
+<script>
+var menu_bar = document.getElementById("menu_bar_id")
+
+function show()
+
+{
+    menu_bar.style.right="0";
+
+}
+
+function hide()
+
+{
+    menu_bar.style.right="-200px";
+}
+</script>
+
+
+
+
+</body>
+</html>
